@@ -1,8 +1,8 @@
 /**
  * @name Comfy Default User Panel for Comfy
- * @author starsuwu
+ * @author finnthorz, starsuwu
  * @description Moves the User Panel back to the default position, with default spacing. Not the original author, I believe that is @finnthorz on discord.
- * @version 1.0.0 
+ * @version 1.0.2 
  */
 
 :root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 {
@@ -38,6 +38,16 @@
         padding: 0;
     }
 
+:root .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 { /* Deafen and Settings Buttons Positions */
+    margin: var(--user-buttons-spacing) auto 0 auto;
+    width: 32px;
+}
+
+:root .panels_c48ade > .container__37e49 > .flex__7c0ba > .micButtonParent__37e49 { /* Mic Button Position */
+    margin: var(--user-buttons-spacing) auto 0 auto;
+    width: 32px;
+}
+
 :root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {
     display: block;
     max-width: 85px;
@@ -62,21 +72,9 @@
     flex: 1 1 auto;
 }
 
-:root .unreadMentionsIndicatorBottom_ef3116 {
+:root .unreadMentionsIndicatorBottom_ef3116 { /* Moves Unread Indicator to the bottom of the server list */
     width: 100%;
     height: 15px;
     padding: 0;
     bottom: 0;
-}
-
-:root .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 {
-    color: var(--user-buttons-color);
-    margin: var(--user-buttons-spacing) auto 0 auto;
-    width: 32px;
-}
-
-:root .panels_c48ade > .container__37e49 > .flex__7c0ba > .micButtonParent__37e49 {
-    color: var(--user-buttons-color);
-    margin: var(--user-buttons-spacing) auto 0 auto;
-    width: 32px;
 }

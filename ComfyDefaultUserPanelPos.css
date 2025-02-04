@@ -74,3 +74,9 @@
     margin: var(--user-buttons-spacing) auto 0 auto;
     width: 32px;
 }
+
+:root .panels_c48ade > .container__37e49 > .flex__7c0ba > .micButtonParent__37e49 {
+    color: var(--user-buttons-color);
+    margin: var(--user-buttons-spacing) auto 0 auto;
+    width: 32px;
+}

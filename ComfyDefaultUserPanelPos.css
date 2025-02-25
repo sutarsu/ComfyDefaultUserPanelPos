@@ -9,6 +9,7 @@
     position: relative;
     left: 0px;
     top: 0px;
+    overflow: hidden;
  }
  
      :root .panels_c48ade > .container__37e49 > .avatarWrapper__37e49 > .avatar__37e49 {
@@ -51,7 +52,7 @@
  }
  
  :root .panels_c48ade > .container__37e49 .avatarWrapper__37e49 > .avatar__37e49 + .nameTag__37e49 {
-     display: block;
+     display: inline-block;
  }
  
  :root nav.guilds_c48ade .scroller-2TZvBN, :root nav.guilds_c48ade .scroller_ef3116 {
